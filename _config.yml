@@ -104,4 +104,9 @@ theme: landscape
 deploy:
   type: git
   repo: git@github.com:developeng/peng.github.io.git
-  branch: master
+  branch: main
+
+server:
+  port: 4001
+  compress: true
+  header: true
